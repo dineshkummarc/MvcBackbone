@@ -67,6 +67,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\fancypants.css" />
+    <Content Include="Content\screen.css" />
     <Content Include="Content\todo.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\album.js" />
