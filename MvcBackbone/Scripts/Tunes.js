@@ -1,5 +1,12 @@
-﻿$(function () {
-    window.Album = Backbone.Model.extend({});
+﻿(function ($) {
+    window.Album = Backbone.Model.extend({
+        isFirstTrack: function (index) {
+            return index == 0;
+        },
+        isLastTrack: function (index) {
+            return index >= this.get('tracks').length - 1;
+        }
+    });
 
     window.AlbumView = Backbone.View.extend({
         tagName: 'li',
@@ -17,4 +24,4 @@
         }
     });
 
-});
+})(jQuery);
