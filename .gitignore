@@ -8,3 +8,7 @@
 *.suo
 *.user
 /_ReSharper.MvcBackbone
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
